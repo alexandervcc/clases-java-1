@@ -166,21 +166,76 @@ public class ClasesJava {
         System.out.println("Asignacion Aritmetica 1:" + op1);
         op1 = op1 + 100;
         System.out.println("Asignacion Aritmetica 1:" + op1);
-        
+
         int op2 = 10;
         System.out.println("Asignacion Aritmetica 2:" + op2);
         //asignacion aritmetica
         op2 += 100;
         System.out.println("Asignacion Aritmetica 2:" + op2);
-        
+
         op2 -= 25;//op2 = op2 - 25;
         System.out.println("Asignacion Aritmetica - :" + op2);
         op2 /= 5;//op2 = op2 / 5;
         System.out.println("Asignacion Aritmetica / :" + op2);
         op2 *= 3;//op2 = op2 * 3;
         System.out.println("Asignacion Aritmetica * :" + op2);
-        
+
         //OPERADORES LOGICOS
+        /*
+        - comparaciones que devuelve un resultado booleano(V,F)
+        - primitivas
+        - procesos de toma de desicion
+        -SINTAXIS: 
+        
+        ( <valor1> <comparador> <valor2>  ){ 
+            <hacer si la comparacion es verdadera> 
+        }
+        
+        - ejemplo: edad es mayor 18: edad vs 18
+            - V: 'es mayor de edad'
+            - F: 'es menor de edad'
+        - siempre devuelven un boolean 
+        
+        - cuales son los COMPARADORES LOGICOS?
+            - si es igual:          ==
+            - no son iguales:       !=
+            - es mayor que:         >
+            - es menor que:         <
+            - es mayor o igual:     >=
+            - es menor o igual:     <=
+        
+        - OPERADORES LOGICOS:
+            - te permiten concatenar condiciones
+            - && : y
+            - || : o
+            - !  : negacion
+            -Ejemplo: (es mayor 18) && (es hombre)
+                -c1:    25 && M -> V && V -> V
+                -c2:    14 && M -> F && V -> F
+         */
+        int edad = 24;
+        if (edad > 18) {
+            System.out.println("Es mayor a 18");
+        }
+        if (edad == 24) {
+            System.out.println("Edad igual a 24");
+        }
+        if (edad < 65) {
+            System.out.println("Edad menor a 65");
+        }
+        if (edad != 100) {
+            System.out.println("Edad es diferente de 100");
+        }
+        if (edad <= 24) {
+            System.out.println("Edad es menor o igual a 24");
+        }
+        
+        boolean resultado = edad > 18;
+        resultado = edad <= 24;
+        resultado = edad != 100;
+        resultado = edad < 65;
+        resultado = edad == 24;
+        
     }
 }
 
