@@ -56,12 +56,12 @@ public class ClasesJava {
         int sum4 = num1 + 10000;
         int res = sum1 - 100000;
         int mul = sum2 * 33;
-        int div = 25/2;
+        int div = 25 / 2;
 
-        System.out.println("res: "+res);
-        System.out.println("mul: "+mul);
-        System.out.println("div: "+div);
-        
+        System.out.println("res: " + res);
+        System.out.println("mul: " + mul);
+        System.out.println("div: " + div);
+
         System.out.println("sum: " + sum1);
         System.out.println("sum: " + sum2);
         System.out.println("sum: " + sum3);
@@ -73,10 +73,114 @@ public class ClasesJava {
         //int var10 = 10;
         // - reasignar el valor de la variable (variable ya debe existir)
         // <nombre-variable> = <nuevo-valor>;
-        System.out.println("var10: "+var10);
+        System.out.println("var10: " + var10);
         var10 = -999;//cambiar el valor 10 -> -999
-        System.out.println("var10: "+var10);
+        System.out.println("var10: " + var10);
+
+        //BYTE
+        /*
+        - unidades de medida para numero booleanos
+        - booleano: representacion de 1 o 0
+            -> 5 =  101
+            -> 15 = 1111
+            -> 1025 = 1000000001
+        - utiliza booleanos de forma agrupada
+        - 1byte = 8 booleanos
+        - 1 byte = | _,_,_,_,_,_,_,_ | 
+        - rango 1 byte = 00000000 -> 11111111 (0 - 255)
+        - 2 bytes -> |00000000|00000000|
+        - 3 bytes -> |00000000|00000000|00000000|
+      
+         */
+        //PRIMITIVAS COMPLETAS
+        /*
+        - su primera letra es minuscula -> primitiva
+        - son los datos mas pequenos
+        - LISTA: byte, short, int, long, float, double, boolean, char
+        - La razon de tener varias es por el que ocupa los datos en memoria:
         
+        Representan numeros enteros
+        - byte  -> 1 byte (-128 <-> +127)
+        - short -> 2 bytes (-32700 <-> +32700)
+        - int   -> 4 bytes
+        - long  -> 8 bytes
+
+        Representan numeros con comas decimales        
+        - float -> 4 bytes
+        - double-> 8 bytes
+        
+        Representaciones especiales
+        - boolean -> 1bit = 0 | 1
+        - char  -> 2 bytes
+        
+         */
+        byte byte1 = 127;
+        short short1 = 31333;
+        int int1 = 56154531;
+        long long1 = 565165156;
+
+        float float1 = 5155445.2f;
+        double double1 = 8898768465.5;
+
+        //CASTING
+        /*
+            - trata de asignar un tipo de dato a otro tipo de dato
+            - existe una jerarquia en el casteo de datos
+            - casteo: convertir un dato en otro tipo de dato
+            - JERARQUIA:
+            byte -> short -> char -> int -> long -> float -> double
+         */
+        double divisionInts = 25 / 2;
+        double divisionDoubleInt = 25 / 2.0;
+        double divisionDoubles = 25.0 / 2.0;
+
+        System.out.println("Resultado division Ints: " + divisionInts);
+        System.out.println("Resultado division DoubleInt: " + divisionDoubleInt);
+        System.out.println("Resultado division Doubles: " + divisionDoubles);
+
+        //OPERACIONES UNARIAS
+        /*
+            - operacion aritmetica con un solo valor
+            - no requieres de dos valores para generar la operacion
+         */
+        int unario = 100;
+        System.out.println("Unario 1:" + unario);
+        //incremento: ++ => incrementar en 1
+        unario++;
+        unario++;
+        unario++;
+        unario++;
+        unario++;
+        System.out.println("Unario 2:" + unario);
+
+        //decremento
+        unario--;
+        System.out.println("Unario 3:" + unario);
+
+        //OPERADORES DE ASIGNACION ARITMETICA
+        /*
+        - son operaciones aritmeticas (+,-,*,/,%)
+        - SINTAXIS: <variable-con-valor> <simbolo-operacion>= <valor-de-operacion>
+         */
+        int op1 = 10;
+        System.out.println("Asignacion Aritmetica 1:" + op1);
+        op1 = op1 + 100;
+        System.out.println("Asignacion Aritmetica 1:" + op1);
+        
+        int op2 = 10;
+        System.out.println("Asignacion Aritmetica 2:" + op2);
+        //asignacion aritmetica
+        op2 += 100;
+        System.out.println("Asignacion Aritmetica 2:" + op2);
+        
+        op2 -= 25;//op2 = op2 - 25;
+        System.out.println("Asignacion Aritmetica - :" + op2);
+        op2 /= 5;//op2 = op2 / 5;
+        System.out.println("Asignacion Aritmetica / :" + op2);
+        op2 *= 3;//op2 = op2 * 3;
+        System.out.println("Asignacion Aritmetica * :" + op2);
+        
+        //OPERADORES LOGICOS
     }
 }
 
