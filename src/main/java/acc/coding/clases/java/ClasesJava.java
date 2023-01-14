@@ -34,6 +34,9 @@ public class ClasesJava {
         //Strings.claseStrings();
 
         //Ejercicios con Math
-        MathClass.claseMathLibrary();
+        //MathClass.claseMathLibrary();
+        
+        //Ejervicios Condicionales
+        Condicionales.ejecutar();
     }
 }
