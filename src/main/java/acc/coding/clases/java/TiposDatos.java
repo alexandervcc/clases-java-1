@@ -82,7 +82,7 @@ public class TiposDatos {
         
         Representaciones especiales
         - boolean -> 1bit = 0 | 1
-        - char  -> 2 bytes
+        - char  -> 2 bytes: contiene una sola letra o simbolo en comilla ssimples
         
          */
         byte byte1 = 127;
@@ -92,6 +92,14 @@ public class TiposDatos {
 
         float float1 = 5155445.2f;
         double double1 = 8898768465.5;
+        
+        char letra1 = 's';
+        char letra2 = '2';
+        char letra3 = '/';
+        
+        boolean bool1 = true;
+        boolean bool2 = false;
+        
 
         //CASTING
         /*

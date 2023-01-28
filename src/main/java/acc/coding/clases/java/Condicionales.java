@@ -6,6 +6,7 @@ public class Condicionales {
                 "------------------------------------------CONDICIONES IF/ELSE------------------------------------------\n");
         // CONDICIONES: IF-ELSE
         /*
+         * - EVALUAR CONDICIONES, Y TOMAR DESICIONES EN FUNCION DEL RESULTADO
          * - estructura de control
          * - tomar desiciones en el codigo
          * - se hace una pregunta, y tomar un camino de acuerdo a la solucion de la
@@ -134,29 +135,29 @@ public class Condicionales {
         /*
          * - cuando pones un IF dentro de otro if
          * SINTAXIS:
-         * if( <condicion 1 > ){
-         * if( <condicion 2 > ){
-         * if( <condicion 1 > ){
-         * 
-         * }
-         * }else{
-         * if( <condicion 1 > ){
-         * 
-         * }else if( <condicion 3> ){
-         * <ejecucion de si es verdadero>
-         * }else if( <condicion 4> ){
-         * <ejecucion de si es verdadero>
-         * } else {
-         * <ejecicion de si es falso>
-         * }
-         * }
-         * }else{
-         * if( <condicion 3 > ){
-         * 
-         * }else{
-         * 
-         * }
-         * }
+        if( <condicion 1 > ){
+            if( <condicion 2 > ){
+                if( <condicion 1 > ){
+          
+                }
+            }else{
+                if( <condicion 1 > ){
+          
+                }else if( <condicion 3> ){
+                    <ejecucion de si es verdadero>
+                }else if( <condicion 4> ){
+                    <ejecucion de si es verdadero>
+                } else {
+                    <ejecicion de si es falso>
+                }
+            }
+        }else{
+            if( <condicion 3 > ){
+          
+            }else{
+          
+            }
+        }
          */
         int edad10 = -5;
         char genero = 'M';
