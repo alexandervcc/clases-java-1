@@ -41,6 +41,9 @@ public class ClasesJava {
         //Condicionales.ejecutar();
 
         //Inputs
-        Inputs.ejecutar();
+        //Inputs.ejecutar();
+
+        //Bucle FOR
+        BuclesFor.ejecutar();
     }
 }
