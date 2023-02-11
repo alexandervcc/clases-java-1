@@ -24,10 +24,11 @@ public class ClasesJava {
 
         //Impresion de datos:
         // -> Sentencia/comando especila:  System.out.println();
-        System.out.println(1);//imprimir en pantall
+        //imprimir en pantall
+        /* System.out.println(1);
         System.out.println(10.25);
         System.out.println("Hola como estas?");
-
+ */
         
 
         //Ejercicios con strings:
@@ -37,6 +38,9 @@ public class ClasesJava {
         //MathClass.claseMathLibrary();
         
         //Ejervicios Condicionales
-        Condicionales.ejecutar();
+        //Condicionales.ejecutar();
+
+        //Inputs
+        Inputs.ejecutar();
     }
 }
