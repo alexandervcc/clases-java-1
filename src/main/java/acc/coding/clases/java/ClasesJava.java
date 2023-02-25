@@ -47,7 +47,9 @@ public class ClasesJava {
         //BuclesFor.ejecutar();
 
         //Bucle while
-        BuclesWhile.ejecutar();
+        //BuclesWhile.ejecutar();
+        
         //Bucle do while
+        BuclesDoWhile.ejecutar();
     }
 }
