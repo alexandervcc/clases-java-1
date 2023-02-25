@@ -53,6 +53,9 @@ public class Main {
         //BuclesDoWhile.ejecutar();
         
         //Switch
-        Switch.ejecutar();
+        //Switch.ejecutar();
+
+        //Arreglos
+        Arreglos.ejecutar();
     }
 }
