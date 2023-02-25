@@ -13,7 +13,7 @@ package acc.coding.clases.java;
 //Clase principal desde donde se ejecuta el codigo.
 // -> clase principal tiene un metodo(funcion) especial llamado 'main'
 //Clases: palabra reservada 'class'
-public class ClasesJava {
+public class Main {
 
     int xd = 0;//declarar una variable y asignar 0
 
@@ -50,6 +50,9 @@ public class ClasesJava {
         //BuclesWhile.ejecutar();
         
         //Bucle do while
-        BuclesDoWhile.ejecutar();
+        //BuclesDoWhile.ejecutar();
+        
+        //Switch
+        Switch.ejecutar();
     }
 }
