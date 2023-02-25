@@ -44,6 +44,10 @@ public class ClasesJava {
         //Inputs.ejecutar();
 
         //Bucle FOR
-        BuclesFor.ejecutar();
+        //BuclesFor.ejecutar();
+
+        //Bucle while
+        BuclesWhile.ejecutar();
+        //Bucle do while
     }
 }
