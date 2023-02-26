@@ -56,6 +56,9 @@ public class Main {
         //Switch.ejecutar();
 
         //Arreglos
-        Arreglos.ejecutar();
+        //Arreglos.ejecutar();
+
+        //Matrices
+        Matriz.ejecutar();
     }
 }
