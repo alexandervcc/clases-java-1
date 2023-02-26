@@ -8,57 +8,58 @@ package acc.coding.clases.java;
     - Java es de tipado estatico: toda variable debe tener su tipo variable
  */
 
-
-
 //Clase principal desde donde se ejecuta el codigo.
 // -> clase principal tiene un metodo(funcion) especial llamado 'main'
 //Clases: palabra reservada 'class'
 public class Main {
 
-    int xd = 0;//declarar una variable y asignar 0
+    int xd = 0;// declarar una variable y asignar 0
 
     public static void main(String[] args) {
-        //Comentarios
+        // Comentarios
         // utilizar //escribes comentarios
         // utilizar /* .... */
 
-        //Impresion de datos:
-        // -> Sentencia/comando especila:  System.out.println();
-        //imprimir en pantall
-        /* System.out.println(1);
-        System.out.println(10.25);
-        System.out.println("Hola como estas?");
- */
-        
+        // Impresion de datos:
+        // -> Sentencia/comando especila: System.out.println();
+        // imprimir en pantall
+        /*
+         * System.out.println(1);
+         * System.out.println(10.25);
+         * System.out.println("Hola como estas?");
+         */
 
-        //Ejercicios con strings:
-        //Strings.claseStrings();
+        // Ejercicios con strings:
+        // Strings.claseStrings();
 
-        //Ejercicios con Math
-        //MathClass.claseMathLibrary();
-        
-        //Ejervicios Condicionales
-        //Condicionales.ejecutar();
+        // Ejercicios con Math
+        // MathClass.claseMathLibrary();
 
-        //Inputs
-        //Inputs.ejecutar();
+        // Ejervicios Condicionales
+        // Condicionales.ejecutar();
 
-        //Bucle FOR
-        //BuclesFor.ejecutar();
+        // Inputs
+        // Inputs.ejecutar();
 
-        //Bucle while
-        //BuclesWhile.ejecutar();
-        
-        //Bucle do while
-        //BuclesDoWhile.ejecutar();
-        
-        //Switch
-        //Switch.ejecutar();
+        // Bucle FOR
+        // BuclesFor.ejecutar();
 
-        //Arreglos
-        //Arreglos.ejecutar();
+        // Bucle while
+        // BuclesWhile.ejecutar();
 
-        //Matrices
-        Matriz.ejecutar();
+        // Bucle do while
+        // BuclesDoWhile.ejecutar();
+
+        // Switch
+        // Switch.ejecutar();
+
+        // Arreglos
+        // Arreglos.ejecutar();
+
+        // Matrices
+        // Matriz.ejecutar();
+
+        // Funciones
+        new Funciones().ejecutar();
     }
 }
