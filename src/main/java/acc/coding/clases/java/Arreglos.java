@@ -56,6 +56,36 @@ public class Arreglos {
 
 
         //Recorrer con for
+        //Iterar sobre el contenido del arreglo uno por uno
+        //Se utiliza una estructura de bucle: for, while, dowhile
+        //Mas utilizada for
+        //arreglo indices: 0 -> tamano - 1
+        // arr -> 10 (0->9)
+        System.out.println("\n\n------------------RECORRIDO DEL ARREGLO CON FOR------------------");
+        for (int i = 0; i < 10; i++) {
+            arr[i] += 1 ;//le sumo 1 a cada posicion del arreglo
+            System.out.println("arr[" + i + "]: " + arr[i]);
+        }
+
+        //Podemos crear arreglos, sin darle el tamano, pero dando el contenido
+        String[] frutas = {"manzana","pera","maracuya","naranjilla","babaco"};
+        for (int i = 0; i < 5; i++) {//i: 0 -> 4
+            System.out.println("frutas[" + i + "]: " + frutas[i]);
+        }
+
+        //Como obtener el tamano de un arreglo
+        String[] autos = {"mazda","toyota","chevrolet","kia","bmw","nissan","volkswagen","hyundai","ford"};
+        // <nombre-arreglo>.length -> saca el tamano del arreglo
+        int tamanoAutos = autos.length;//saco el tamano del arreglo
+        System.out.println("\n\n\nTamano arreglo autos: "+tamanoAutos);
+        for (int i = 0; i < tamanoAutos; i++) {
+            System.out.println("autos[" + i + "]: " + autos[i]);
+        } 
+
+        //recorrer arreglo de atras hacia adelante
+        for (int i = tamanoAutos-1; i>=0; i--) {
+            System.out.println("autos[" + i + "]: " + autos[i]);
+        } 
         
     }
 }
